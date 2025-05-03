@@ -1,0 +1,14 @@
+/*
+ * ECG Monitoring with AD8232 and Arduino Uno
+ * 
+ * Connections:
+ * AD8232 | Arduino Uno
+ * --------------------
+ * LO+   -> D11 (Lead-Off Detect +)
+ * LO-   -> D10 (Lead-Off Detect -)
+ * OUTPUT -> A0 (ECG Signal)
+ * 3.3V  -> 3.3V (Power)
+ * GND   -> GND (Ground)
+ * 
+ * Optional: SDN -> D9 (Shutdown Control)
+ */
